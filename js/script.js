@@ -8,7 +8,7 @@ var w = c.width = window.innerWidth,
 		hh = h / 2,
 		
 		opts = {
-			strings: [ 'HAPPY', 'BIRTHDAY', 'Shane!' ],
+			strings: [ 'HAPPY BIRTHDAY', 'Shane!' ],
 			charSize: 30,
 			charSpacing: 35,
 			lineHeight: 40,
@@ -385,7 +385,7 @@ function anim() {
 	  const video = document.getElementById('birthdayVideo');
 	  video.volume = 1.0;  // Sets the volume to 100%
 	  video.muted = false; // Ensures the video is not muted
-	  video.play();
+	  video.display();
 	}
   }
   
